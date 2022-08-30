@@ -18,27 +18,3 @@ class Solution {
     }
 }
 // @solution-sync:end
-
-class Main {
-
-    public static void main(String[] args) {
-        int[] nums = new int[]{2, 7, 11, 15};
-        int target = 9;
-
-        int[] result = new Solution().twoSum(nums, target);
-        System.out.println(toString(result));
-    }
-
-    private static String toString(int[] arr) {
-        StringBuilder buf = new StringBuilder();
-        buf.append("[");
-        for (int i = 0; i < arr.length; i++) {
-            if (i != 0)
-                buf.append(",");
-            buf.append(arr[i]);
-        }
-        buf.append("]");
-        return buf.toString();
-    }
-
-}

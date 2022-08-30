@@ -1,3 +1,5 @@
+package yang.org;
+
 import java.util.Stack;
 
 // @solution-sync:begin
@@ -33,14 +35,3 @@ class Solution {
     }
 }
 // @solution-sync:end
-
-class Main {
-
-    public static void main(String[] args) {
-        String[] tokens = new String[]{"2", "1", "+", "3", "*"};
-
-        int result = new Solution().evalRPN(tokens);
-        System.out.println(result);
-    }
-
-}

@@ -20,15 +20,3 @@ class Solution {
     }
 }
 // @solution-sync:end
-
-class Main {
-
-    public static void main(String[] args) {
-        double x = 2.0;
-        int n = 10;
-
-        double result = new Solution().myPow(x, n);
-        System.out.println(result);
-    }
-
-}

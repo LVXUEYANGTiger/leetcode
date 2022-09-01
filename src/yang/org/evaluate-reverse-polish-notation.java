@@ -3,7 +3,7 @@ package yang.org;
 import java.util.Stack;
 
 // @solution-sync:begin
-class Solution {
+class Solution1 {
     Stack<Integer> stack = new Stack<Integer>();
     public int evalRPN(String[] tokens) {
         // 添加进去

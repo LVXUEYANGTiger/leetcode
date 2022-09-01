@@ -1,4 +1,6 @@
-class Solution {
+package yang.org;
+
+class Solution400 {
     public int findNthDigit(int n) {
         if(n <= 9){
             return n;
@@ -25,14 +27,3 @@ class Solution {
     }
 }
 // @solution-sync:end
-
-class Main {
-
-    public static void main(String[] args) {
-        int n = 11;
-
-        int result = new Solution().findNthDigit(n);
-        System.out.println(result);
-    }
-
-}

@@ -1,4 +1,6 @@
-class Solution {
+package yang.org;
+
+class Solution200 {
     public int numIslands(char[][] grid) {
         int result = 0;
         for (int i = 0; i < grid.length; i++) {

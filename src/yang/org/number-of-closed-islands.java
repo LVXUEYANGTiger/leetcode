@@ -1,4 +1,6 @@
-class Solution {
+package yang.org;
+
+class Solution1254 {
     public int closedIsland(int[][] grid) {
         int result = 0;
         int n = grid.length;

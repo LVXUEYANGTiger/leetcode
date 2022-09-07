@@ -1,4 +1,6 @@
-class Solution {
+package yang.org;
+
+class Solution1905 {
     public int countSubIslands(int[][] grid1, int[][] grid2) {
         int result = 0;
         int n = grid1.length;

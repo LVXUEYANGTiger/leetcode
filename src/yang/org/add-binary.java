@@ -1,4 +1,6 @@
-class Solution {
+package yang.org;
+
+class Solution67 {
     public String addBinary(String a, String b) {
         // 模拟题
         StringBuffer bf  = new StringBuffer();
